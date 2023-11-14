@@ -39,7 +39,9 @@
           <img class="flags" v-if="store.flags[item.original_language]" :src="store.flags[item.original_language]" alt="Nation Flags">
           <p v-else>{{ item.original_language }}</p>
         </li>
-        <li>{{ item.vote_average }}</li>
+        <li>
+            {{ item.vote_average }}
+        </li>
       </ul> 
     </div>
   </template>

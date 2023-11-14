@@ -14,6 +14,11 @@ export const store = reactive({
         ca: '/ca.png',
         ja: '/jp.png',
         da: '/da.png',
-        zh: '/zh.png'
+        zh: '/zh.png',
+        ko: '/ko.jpg',
+        ro: '/ro.png',
+        kn: '/kn.png',
+        ru: '/ru.png',
+        hi: '/hi.png'
 	},
 })
